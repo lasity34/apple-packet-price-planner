@@ -55,8 +55,8 @@ function apple_factory(price, num, size, profit) {
     }
 
     function recommended_price() {
-        const recommended_price_packet = (cost_per_packet() * 1.15)
-        return recommended_price_packet.toFixed(2)
+        const recommended_price_packet = cost_per_packet() * 1.15
+        return recommended_price_packet
     }
 
     return {
@@ -70,8 +70,7 @@ function apple_factory(price, num, size, profit) {
         profit_required_length,
         number_of_packets,
         cost_per_apple,
-        cost_per_packet,
-        recommended_price
+        cost_per_packet
 
 
     }

@@ -77,15 +77,4 @@ describe("This will test different calculations", function() {
   
     assert.equal(18.18, apple_instance.cost_per_packet())
   })
-  it("this will display recommended price", function() {
-    const apple_instance = apple_factory();
-
-    apple_instance.apple_price(50)
-    apple_instance.apple_count(22)
-    apple_instance.apple_size(8)
-    apple_instance.cost_per_packet()
-    
-  
-    assert.equal(20.91, apple_instance.recommended_price())
-  })
 })

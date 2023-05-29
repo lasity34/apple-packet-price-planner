@@ -49,16 +49,6 @@ function apple_factory(price, num, size, profit) {
         return price_per_apple
     }
 
-    function cost_per_packet() {
-        const price_per_packet = (apple_cost_price * packet_size) / num_apples;
-    return price_per_packet.toFixed(2)
-    }
-
-    function recommended_price() {
-        const recommended_price_packet = (cost_per_packet() * 1.15)
-        return recommended_price_packet.toFixed(2)
-    }
-
     return {
         apple_price,
         apples_price_length,
@@ -69,9 +59,7 @@ function apple_factory(price, num, size, profit) {
         profit_input,
         profit_required_length,
         number_of_packets,
-        cost_per_apple,
-        cost_per_packet,
-        recommended_price
+        cost_per_apple
 
 
     }

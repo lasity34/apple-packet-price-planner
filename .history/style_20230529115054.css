@@ -13,7 +13,7 @@ main {
 }
 
 .input_section {
-    padding: 0.5em 0;
+    padding: 05em 0;
 }
 
 .input_container {
@@ -50,27 +50,3 @@ main {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.data_container {
-    display: flex;
-    justify-content: space-between;
-    width: 98%;
-}
-
-.data_container h5 {
-    margin: 0.5em;
-}
-
-.data_container h5:nth-of-type(1) {
-    align-self: center;
-    margin: 0;
-}
-
-.data_container h5:nth-of-type(2) {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32%;
-    height: 25px;
-    background-color: rgb(172, 169, 186);
-}

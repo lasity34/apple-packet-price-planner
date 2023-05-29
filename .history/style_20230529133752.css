@@ -53,24 +53,16 @@ main {
 .data_container {
     display: flex;
     justify-content: space-between;
-    width: 98%;
-}
-
-.data_container h5 {
-    margin: 0.5em;
+    width: 95%;
+ 
 }
 
 .data_container h5:nth-of-type(1) {
     align-self: center;
-    margin: 0;
 }
 
 .data_container h5:nth-of-type(2) {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 32%;
-    height: 25px;
+    height: 30px;
     background-color: rgb(172, 169, 186);
 }

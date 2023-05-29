@@ -53,7 +53,7 @@ main {
 .data_container {
     display: flex;
     justify-content: space-between;
-    width: 98%;
+    width: 95%;
 }
 
 .data_container h5 {

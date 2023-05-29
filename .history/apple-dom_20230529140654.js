@@ -15,7 +15,6 @@ function apple_dom() {
 num_packet_display.innerText = apple_fact.number_of_packets()
 cost_per_apple_display = apple_fact.cost_per_apple()
 cost_per_packet_display = apple_fact.cost_per_packet() 
-recommended_price_packet = apple_fact.recommended_price()
 
 }
 
