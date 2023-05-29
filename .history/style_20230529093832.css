@@ -1,0 +1,31 @@
+
+h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+main {
+    background-color: rgb(223, 217, 217);
+    margin: 0 auto;
+    padding: 2em;
+    width: 70%;
+}
+
+.input_section {
+    padding: 2em 0;
+}
+
+.input_container {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.input_container input {
+    width: 30%;
+}
+
+.input_container label {
+    width: 50%;
+   align-self: center;
+}
